@@ -1,0 +1,46 @@
+body {
+    background-color: #f4f6f9; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px #00000012;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px #0000001a;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #5a67d8 !important; 
+    border-color: #5a67d8 !important;
+}
+
+.btn-primary:hover {
+    background-color: #4c51bf !important;
+    border-color: #4c51bf !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px #5a67d866;
+}
+
+.btn-success {
+    background-color: #48bb78 !important;
+    border-color: #48bb78 !important;
+}
+
+.btn-success:hover {
+    background-color: #38a169 !important;
+    border-color: #38a169 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px #48bb7866;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
